@@ -86,27 +86,46 @@
 
 
 
+    #multiplicação
+    $a = 10;
+    $b = 10;
     
-    $x = 10;
 
+    $a *= $b;
     
-    $x = $x * 5;
-    $x *= 5;
-    echo $x;
+    echo "a multiplicação é " .$a;
 
     echo "<br><br><hr><br><br>";
 
+
+    #subtração
+    $a = 10;
+    $b = 10; 
+
+    $a -= $b;
     
-    $y = 10;
-    $y /= 5;
-    echo $y;
+    echo "a subtração é " .$a;
 
     echo "<br><br><hr><br><br>";
+
+    #soma
+    $a = 10;
+    $b = 10; 
+
+    $a += $b;
     
-    $z += 5;
-    
-    echo $z;
+    echo "a soma é " .$a;
 
     echo "<br><br><hr><br><br>";
 
+    #divisão
+    $a = 10;
+    $b = 10;
+ 
+    $a /= $b;
+
+    echo "a divisão é " .$a;
+
+    echo "<br><br><hr><br><br>";
+   
    
