@@ -30,6 +30,8 @@
 
     echo "$a$l$u$n$o$s";
 
+    echo '<br><br><hr><br><br>';
+
     /*
     3.	Uma conta telefônica é composta dos seguintes custos:
     Assinatura: R$ 32,00
@@ -51,16 +53,60 @@
     echo $fatura;
 
 
+    echo '<br><br><hr><br><br>';
+    
 
 
     /* 
         4.	Fazer um programa que imprima a média dos números 11, 19 e 7.
     */
 
-    $a 11;
-    $b 19;
-    $c 7;
+    $a = 11;
+    $b = 19;
+    $c = 7;
 
     $media = ($a + $b + $c) /2;
 
-    echo "o valor da média é: " $media;
+    echo $media;
+
+
+    echo '<br><br><hr><br><br>';
+
+
+    /* 
+    5.	Um professor atribui pesos de 1 a 4 para as notas de quatro avaliações. A nota é calculada por meio da média ponderada (N1*1 + N2*2 + N3*3 + N4*4) / (1+2+3+4), onde N1 é a nota da primeira avaliação, N2 a da segunda, etc. Um aluno tirou as seguintes notas: 8, 7.5, 10, 9. Faça um programa que calcula e escreva a média deste aluno.
+    */
+
+
+
+
+
+
+    /* 6.	Escreva um programa que obtêm dois valores inteiros (variáveis A e B) e apresente as operações de adição, subtração, multiplicação e divisão de A por B. */
+
+
+
+    
+    $x = 10;
+
+    
+    $x = $x * 5;
+    $x *= 5;
+    echo $x;
+
+    echo "<br><br><hr><br><br>";
+
+    
+    $y = 10;
+    $y /= 5;
+    echo $y;
+
+    echo "<br><br><hr><br><br>";
+    
+    $z += 5;
+    
+    echo $z;
+
+    echo "<br><br><hr><br><br>";
+
+   
