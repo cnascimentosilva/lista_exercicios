@@ -180,7 +180,17 @@
         /* 
             11.	Ler um número inteiro e imprimir seu sucessor e seu antecessor.
         */
+        
 
+        $valor1 = 10;
+
+        $antecessor = $valor1 - 1;
+        $sucessor = $valor1 + 1;
+
+        echo "o antecessor é " .$antecessor;
+        echo " <br> o sucessor é " .$sucessor;
+
+        
 
         echo "<br><br><hr><br><br>";
 
