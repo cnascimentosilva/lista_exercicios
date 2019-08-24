@@ -1,4 +1,7 @@
 <?php
+
+echo "<br><br><hr><br><br>";
+echo "1) "; 
     /*
     1.	Escreva um programa que declare uma variável inteira e atribua o valor 10 a mesma. 
     Declare uma variável real e atribua para a mesma o valor 20.3. Como saída o programa deverá 
@@ -10,6 +13,7 @@
     $inteiro = 10;
     $real = 20.3;
 
+    
     echo "valor inteiro {$inteiro} e o valor real {$real}";
 
     echo '<br><br><hr><br><br>';
@@ -21,6 +25,7 @@
         o seguinte resultado: alunos.
     */
 
+    echo "2) "; 
     $a = "a";
     $l = "l";
     $u = "u";
@@ -42,6 +47,7 @@
     chamadas para celular imprimindo o resultado obtido.
     */
 
+    echo "3) "; 
     $assinatura = 32;
     $impulso = 0.09;
     $celular = 0.35;
@@ -50,7 +56,7 @@
     
     $fatura = $assinatura + ($excedido * $impulso) + ($celular * 23);
 
-    echo "O valor da conta é " .$fatura;
+    echo "O valor da fatura é " .$fatura;
 
 
     echo '<br><br><hr><br><br>';
@@ -60,6 +66,8 @@
     /* 
         4.	Fazer um programa que imprima a média dos números 11, 19 e 7.
     */
+
+    echo "4) "; 
 
     $a = 11;
     $b = 19;
@@ -78,14 +86,25 @@
     */
 
 
+    echo "5) "; 
+
+        $n1 = 8;
+        $n2 = 7.5;
+        $n3 = 10;
+        $n4 = 9;
+        $media = ($n1 + $n2 + $n3 + $n4) / 4;
 
 
+        echo "A média é $media";
+
+        echo '<br><br><hr><br><br>';
 
 
     /* 6.	Escreva um programa que obtêm dois valores inteiros (variáveis A e B) e apresente as operações de adição, subtração, multiplicação e divisão de A por B. */
 
 
 
+    echo "6) "; 
     #multiplicação
     $a = 10;
     $b = 10;
@@ -129,6 +148,8 @@
     echo "<br><br><hr><br><br>";
 
     /*7.	Efetuar a leitura de um número inteiro e apresentar o resultado do quadrado deste número. */
+
+    echo "7) "; 
         $valor1 = 10;
     
         $dobro = $valor1 * 2;
@@ -139,6 +160,8 @@
 
 
         /* 8.	Efetuar a leitura de um número inteiro e apresentar o resultado do cubo deste número.*/
+
+        echo "8) "; 
         $valor2 = 10;
     
         $cubo = $valor2 * 3;
@@ -146,26 +169,11 @@
         echo "a dobro do valor $valor2 é igual a " .$cubo;
 
         echo "<br><br><hr><br><br>";
-         
-
-        /* 
-            9.	Ler dois números inteiros informados pelo usuário, dividi-los, apresentar o resultado da divisão real desses números, o quadrado do primeiro número e o cubo do segundo número.
-        */
-
-        $valor01 = isset($_POST['valor01']) ? $_POST['valor01'] : 0;
-        $valor02 = isset($_POST['valor02']) ? $_POST['valor02'] : 0;
-
-        if($valor01 != 0 && $valor02 != 0) {
-            echo "A divisão dos valores é: " . ($valor01 / $valor02);
-            echo "<br>O quadrado do primeiro valor é: " . ($valor01 ** 2); // 5.6 base ** potencia
-            echo "<br>O cubo do primeiro valor é: " . pow($valor02, 3); // 4 - 7.3 pow(base, potencia)
-        }
-
 
         /* 
             10.	Efetuar a leitura de um número inteiro e imprimir o resto da divisão (%) deste número por 2.
         */
-
+        echo "10) ";    
 
         $a = 11;
 
@@ -180,6 +188,8 @@
         /* 
             11.	Ler um número inteiro e imprimir seu sucessor e seu antecessor.
         */
+
+        echo "11) "; 
         
 
         $valor1 = 10;
@@ -199,6 +209,7 @@
         /* 
             12.	Escreva um programa que calcule e mostre o valor da conversão em dólar de um valor lido em real. O programa deverá ler o valor da cotação do dólar e a quantidade de reais.
         */
+        echo "12) "; 
 
         $dolar = 4.12;
         $real = 50;
@@ -216,6 +227,7 @@
         */
 
 
+        echo "13) "; 
 
         $valor1 = 10; 
 
@@ -223,3 +235,6 @@
         $reajuste = $valor1 + ($valor1 * 0.1);
 
         echo "o reajuste de 10% é " .$reajuste;
+
+
+        echo "<br><br><hr><br><br>";
